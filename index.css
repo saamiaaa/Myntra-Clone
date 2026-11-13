@@ -5,6 +5,8 @@
     font-family: Assistant, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
 }
 
+/* Navigation Bar */
+
 header {
     display: flex;
     background-color: #ffffff;
@@ -89,4 +91,35 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+/* Main Content */
+
+.bannerContainer {
+    margin: 40px 0;
+}
+
+.bannerImage {
+    width: 100%;
+}
+
+.categoryHeading {
+    text-transform: uppercase;
+    color: #3e4152;
+    letter-spacing: .15em;
+    font-size: 1.8em;
+    margin: 50px 0 10px 30px;
+    max-height: 5em;
+    font-weight: 700;
+}
+
+.categoryItems {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.Offers {
+    width: 250px;
+
 }
